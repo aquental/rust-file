@@ -1,0 +1,18 @@
+[package]
+name = "bufread"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name="lbl"
+path="src/line-by-line.rs"
+
+[[bin]]
+name="temp"
+path="src/temp.rs"
+
+[[bin]]
+name="names"
+path="src/names.rs"
+
+[dependencies]

@@ -1,0 +1,4 @@
+Reading file line-by-line:
+Line 1 with some data 
+Line 2 with some data
+Another line with some data
