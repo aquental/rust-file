@@ -1,0 +1,3 @@
+Hi!
+This file contains some sample example text to use to test how the read method works.
+Let's do some programming!
