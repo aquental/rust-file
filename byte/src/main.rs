@@ -8,16 +8,19 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let reader = BufReader::new(file);
 
     // Use bytes() to read the first byte and print it
-    println!("Reading the file byte by byte:");
-    for byte_result in reader.bytes() {
+    println!("Reading the file byte by byte (first byte):");
+    if let Some(byte_result) = reader.bytes().next() {
         match byte_result {
-            Ok(byte) => print!("{}", byte as char),
+            Ok(byte) => println!("First byte: {} (char: {})", byte, byte as char),
             Err(e) => {
-                eprintln!("\nError reading byte: {}", e);
+                eprintln!("Error reading byte: {}", e);
                 return Err(e.into());
             }
         }
+    } else {
+        println!("File is empty");
     }
+    
 
     Ok(())
 }
