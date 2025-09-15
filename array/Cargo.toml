@@ -1,0 +1,13 @@
+[package]
+name = "array"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "arr"
+path = "src/arr.rs"
+
+[[bin]]
+name="moon"
+path="src/moon.rs"
+[dependencies]
