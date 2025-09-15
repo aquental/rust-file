@@ -1,0 +1,5 @@
+Name	Habitat	AverageLifespan
+Elephant	Savannah	70
+PolarBear	Arctic	25
+Kangaroo	Grasslands	23
+Tiger	Jungle	16

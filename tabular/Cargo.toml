@@ -1,0 +1,18 @@
+[package]
+name = "tabular"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name="struct"
+path="src/struct.rs"
+
+[[bin]]
+name="header"
+path="src/header.rs"
+
+[[bin]]
+name="animal"
+path="src/animal.rs"
+
+[dependencies]
