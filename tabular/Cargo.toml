@@ -15,4 +15,8 @@ path="src/header.rs"
 name="animal"
 path="src/animal.rs"
 
+[[bin]]
+name="dvc"
+path="src/device.rs"
+
 [dependencies]

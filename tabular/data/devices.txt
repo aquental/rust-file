@@ -1,0 +1,4 @@
+DeviceName	PowerUsage
+Laptop	60
+Refrigerator	150
+AirConditioner	2000
