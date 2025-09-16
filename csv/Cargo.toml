@@ -7,6 +7,14 @@ edition = "2024"
 name="sort"
 path="src/sorted.rs"
 
+[[bin]]
+name="per"
+path="src/person.rs"
+
+[[bin]]
+name="occ"
+path="src/occupations.rs"
+
 [dependencies]
 serde = { version = "=1.0", features = ["derive"] }
 serde_json = "=1.0"

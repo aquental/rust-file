@@ -1,4 +1,4 @@
-Name,Age
-John,28
-Alice,34
-Bob,23
+Name,Age,Occupation
+John,28,Engineer
+Alice,34,Doctor
+Bob,23,Artist
