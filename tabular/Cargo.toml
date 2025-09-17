@@ -19,4 +19,13 @@ path="src/animal.rs"
 name="dvc"
 path="src/device.rs"
 
+[[bin]]
+name="out"
+path="src/write.rs"
+
+[[bin]]
+name="2csv"
+path="src/tocsv.rs"
+
 [dependencies]
+csv = "1.3.1"
