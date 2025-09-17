@@ -1,4 +1,6 @@
-Name	Age	Occupation
-John	28	Engineer
-Alice	34	Doctor
-Bob	23	Artist
+Type Name Age
+Cat Whiskers 2
+Dog Fido 5
+Bird Tweety 1
+Cat Luna 3
+Dog Rex 7
