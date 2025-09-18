@@ -35,5 +35,9 @@ path="src/matrix.rs"
 name="pet"
 path="src/pet.rs"
 
+[[bin]]
+name="temp"
+path="src/temperatures.rs"
+
 [dependencies]
 csv = "1.3.1"
