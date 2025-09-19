@@ -19,6 +19,10 @@ path="src/fields.rs"
 name="stud"
 path="src/students.rs"
 
+[[bin]]
+name="arr"
+path="src/array.rs"
+
 [dependencies]
 serde = { version = "=1.0", features = ["derive"] }
 serde_json = "=1.0"
