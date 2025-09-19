@@ -1,0 +1,24 @@
+{
+    "company": "Tech Innovations",
+    "headquarters": {
+        "city": "San Francisco",
+        "state": "CA"
+    },
+    "products": [
+        {
+            "name": "SmartSpeaker",
+            "version": "1.0",
+            "price": 199
+        },
+        {
+            "name": "SmartHomeHub",
+            "version": "2.1",
+            "price": 299
+        },
+        {
+            "name": "EcoSensor",
+            "version": "3.5",
+            "price": 99
+        }
+    ]
+}

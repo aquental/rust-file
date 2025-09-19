@@ -1,0 +1,24 @@
+{
+    "school": "Greenwood High",
+    "location": {
+        "city": "New York",
+        "state": "NY"
+    },
+    "students": [
+        {
+            "name": "Emma",
+            "age": 15,
+            "grade": "10"
+        },
+        {
+            "name": "Liam",
+            "age": 14,
+            "grade": "9"
+        },
+        {
+            "name": "Olivia",
+            "age": 16,
+            "grade": "11"
+        }
+    ]
+}

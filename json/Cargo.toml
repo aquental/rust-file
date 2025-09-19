@@ -7,6 +7,18 @@ edition = "2024"
 name="final"
 path="src/final.rs"
 
+[[bin]]
+name="sec"
+path="src/second.rs"
+
+[[bin]]
+name="fields"
+path="src/fields.rs"
+
+[[bin]]
+name="stud"
+path="src/students.rs"
+
 [dependencies]
 serde = { version = "=1.0", features = ["derive"] }
 serde_json = "=1.0"

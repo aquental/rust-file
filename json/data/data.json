@@ -1,24 +1,13 @@
 {
-    "school": "Greenwood High",
-    "location": {
-        "city": "New York",
-        "state": "NY"
-    },
-    "students": [
+    "library": "Downtown Library",
+    "books": [
         {
-            "name": "Emma",
-            "age": 15,
-            "grade": "10"
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald"
         },
         {
-            "name": "Liam",
-            "age": 14,
-            "grade": "9"
-        },
-        {
-            "name": "Olivia",
-            "age": 16,
-            "grade": "11"
+            "title": "1984",
+            "author": "George Orwell"
         }
     ]
 }
