@@ -1,0 +1,18 @@
+{
+  "day": "2023-05-25",
+  "participants": [
+    {
+      "fullName": "Alex",
+      "project": "Volcano Model"
+    },
+    {
+      "fullName": "Jordan",
+      "project": "Robotics"
+    },
+    {
+      "fullName": "Taylor",
+      "project": "Solar System"
+    }
+  ],
+  "title": "Science Fair"
+}
