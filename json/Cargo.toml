@@ -24,6 +24,10 @@ name="arr"
 path="src/array.rs"
 
 [[bin]]
+name="ar2"
+path="src/array2.rs"
+
+[[bin]]
 name="str"
 path="src/struct.rs"
 
