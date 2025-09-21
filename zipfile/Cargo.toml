@@ -7,6 +7,18 @@ edition = "2024"
 name = "type"
 path = "src/type.rs"
 
+[[bin]]
+name = "max"
+path = "src/max.rs"
+
+[[bin]]
+name = "rd"
+path = "src/read.rs"
+
+[[bin]]
+name = "te"
+path = "src/test_exist.rs"
+
 [dependencies]
 zip = "5.1.1"
 
