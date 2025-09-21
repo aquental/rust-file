@@ -3,6 +3,10 @@ name = "zipfile"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "type"
+path = "src/type.rs"
+
 [dependencies]
 zip = "5.1.1"
 
