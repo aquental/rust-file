@@ -25,13 +25,13 @@ fn main() -> Result<(), Box<dyn Error>> {
             // - Read and print the contents to the console
             for line in reader.lines() {
                 let line = line?;
-                println!("line: {}", line);
+                println!("{}", line);
             }
         }
-        if !test_exists {
-            // If it doesn't, print "File test.txt not found in the ZIP archive."
-            println!("File test.txt not found in the ZIP archive.");
-        }
+    }
+    if !test_exists {
+        // If it doesn't, print "File test.txt not found in the ZIP archive."
+        println!("File test.txt not found in the ZIP archive.");
     }
 
     Ok(())
