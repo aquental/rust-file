@@ -27,6 +27,10 @@ path = "src/batch_write.rs"
 name = "bw2"
 path = "src/batch_write2.rs"
 
+[[bin]]
+name = "bwx"
+path = "src/batch_writex.rs"
+
 [dependencies]
 rand = "=0.8.5"
 zip = "5.1.1"
