@@ -19,7 +19,16 @@ path = "src/read.rs"
 name = "te"
 path = "src/test_exist.rs"
 
+[[bin]]
+name = "bw"
+path = "src/batch_write.rs"
+
+[[bin]]
+name = "bw2"
+path = "src/batch_write2.rs"
+
 [dependencies]
+rand = "=0.8.5"
 zip = "5.1.1"
 
 
