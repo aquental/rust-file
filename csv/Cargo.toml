@@ -19,6 +19,18 @@ path="src/occupations.rs"
 name="city"
 path="src/city.rs"
 
+[[bin]]
+name="hp"
+path="src/high_price.rs"
+
+[[bin]]
+name="rd"
+path="src/read.rs"
+
+[[bin]]
+name="fin"
+path="src/final.rs"
+
 [dependencies]
 serde = { version = "=1.0", features = ["derive"] }
 serde_json = "=1.0"
